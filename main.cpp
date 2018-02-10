@@ -1,10 +1,10 @@
 
 #include <QApplication>
-#include <Headers/SetWindow.h>
+#include <Headers/UI.h>
 
 int main(int argc, char **argv) {
     QApplication *app = new QApplication(argc, argv);
-    SetWindow *chooseOpt=new SetWindow(200,200);
+    UI *myUserInterface=new UI();
     app->exec();
     return 0;
 }

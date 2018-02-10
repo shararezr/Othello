@@ -125,7 +125,13 @@
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Headers/SetWindow.h">
 			<Option target="Othello"/>
 		</Unit>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Headers/UI.h">
+			<Option target="Othello"/>
+		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Sources/SetWindow.cpp">
+			<Option target="Othello"/>
+		</Unit>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Sources/UI.cpp">
 			<Option target="Othello"/>
 		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/Othello_automoc.cpp">

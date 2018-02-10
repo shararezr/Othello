@@ -190,6 +190,33 @@ Sources/SetWindow.cpp.s:
 	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/SetWindow.cpp.s
 .PHONY : Sources/SetWindow.cpp.s
 
+Sources/UI.o: Sources/UI.cpp.o
+
+.PHONY : Sources/UI.o
+
+# target to build an object file
+Sources/UI.cpp.o:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/UI.cpp.o
+.PHONY : Sources/UI.cpp.o
+
+Sources/UI.i: Sources/UI.cpp.i
+
+.PHONY : Sources/UI.i
+
+# target to preprocess a source file
+Sources/UI.cpp.i:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/UI.cpp.i
+.PHONY : Sources/UI.cpp.i
+
+Sources/UI.s: Sources/UI.cpp.s
+
+.PHONY : Sources/UI.s
+
+# target to generate assembly for a file
+Sources/UI.cpp.s:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/UI.cpp.s
+.PHONY : Sources/UI.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -233,6 +260,9 @@ help:
 	@echo "... Sources/SetWindow.o"
 	@echo "... Sources/SetWindow.i"
 	@echo "... Sources/SetWindow.s"
+	@echo "... Sources/UI.o"
+	@echo "... Sources/UI.i"
+	@echo "... Sources/UI.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
