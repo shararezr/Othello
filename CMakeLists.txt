@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.7)
+project(Othello)
+set(CMAKE_CXX_STANDARD 14)
+set(SOURCE_FILES main.cpp Sources/SetWindow.cpp Headers/SetWindow.h)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+set(CMAKE_AUTOMOC ON)
+set(Qt5_BASE_DIR /home/sam/Qt/5.8/gcc_64/lib/cmake)
+set(CMAKE_PREFIX_PATH ${Qt5_BASE_DIR};${CMAKE_PREFIX_PATH})
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+find_package(Qt5 REQUIRED COMPONENTS Core Widgets Gui Network Multimedia)
+
+add_executable(Othello ${SOURCE_FILES})
+qt5_use_modules(Othello Core Widgets Gui Network Multimedia)
+target_link_libraries(Othello Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Network Qt5::Multimedia)

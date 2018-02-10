@@ -1,0 +1,4 @@
+/home/sam/clion-2017.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sam/Desktop/Sharare/Othello/Othello
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug

@@ -1,0 +1,4 @@
+/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/Othello.dir
+/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/Othello_automoc.dir
