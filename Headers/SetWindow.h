@@ -20,7 +20,7 @@ public:
     SetWindow(int,int);
     quint16 modeTaken;
     QRadioButton *playingCPU;
-    QRadioButton *playingHuman
+    QRadioButton *playingHuman;
 public slots:
     void makeIt();
 signals:

@@ -163,6 +163,33 @@ Othello_automoc.cpp.s:
 	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Othello_automoc.cpp.s
 .PHONY : Othello_automoc.cpp.s
 
+Sources/GameWindow.o: Sources/GameWindow.cpp.o
+
+.PHONY : Sources/GameWindow.o
+
+# target to build an object file
+Sources/GameWindow.cpp.o:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o
+.PHONY : Sources/GameWindow.cpp.o
+
+Sources/GameWindow.i: Sources/GameWindow.cpp.i
+
+.PHONY : Sources/GameWindow.i
+
+# target to preprocess a source file
+Sources/GameWindow.cpp.i:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/GameWindow.cpp.i
+.PHONY : Sources/GameWindow.cpp.i
+
+Sources/GameWindow.s: Sources/GameWindow.cpp.s
+
+.PHONY : Sources/GameWindow.s
+
+# target to generate assembly for a file
+Sources/GameWindow.cpp.s:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/Sources/GameWindow.cpp.s
+.PHONY : Sources/GameWindow.cpp.s
+
 Sources/SetWindow.o: Sources/SetWindow.cpp.o
 
 .PHONY : Sources/SetWindow.o
@@ -257,6 +284,9 @@ help:
 	@echo "... Othello_automoc.o"
 	@echo "... Othello_automoc.i"
 	@echo "... Othello_automoc.s"
+	@echo "... Sources/GameWindow.o"
+	@echo "... Sources/GameWindow.i"
+	@echo "... Sources/GameWindow.s"
 	@echo "... Sources/SetWindow.o"
 	@echo "... Sources/SetWindow.i"
 	@echo "... Sources/SetWindow.s"

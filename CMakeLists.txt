@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.7)
 project(Othello)
 set(CMAKE_CXX_STANDARD 14)
-set(SOURCE_FILES main.cpp Sources/SetWindow.cpp Headers/SetWindow.h Sources/UI.cpp Headers/UI.h)
+set(SOURCE_FILES main.cpp Sources/SetWindow.cpp Headers/SetWindow.h Sources/UI.cpp Headers/UI.h Sources/GameWindow.cpp Headers/GameWindow.h)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)

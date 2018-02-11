@@ -122,10 +122,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Headers/GameWindow.h">
+			<Option target="Othello"/>
+		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Headers/SetWindow.h">
 			<Option target="Othello"/>
 		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Headers/UI.h">
+			<Option target="Othello"/>
+		</Unit>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Sources/GameWindow.cpp">
 			<Option target="Othello"/>
 		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Sources/SetWindow.cpp">

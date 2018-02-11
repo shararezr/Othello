@@ -8,11 +8,20 @@
 
 #include <QtCore/QtCore>
 #include <QObject>
+#include "Headers/SetWindow.h"
+#include "Headers/GameWindow.h"
 
 class UI: public QObject {
 Q_OBJECT
 public:
     UI();
+
+public slots:
+    void acceptedMode();
+
+private:
+    SetWindow *myFirstWindow;
+    GameWindow *mySecondWindow;
 };
 
 
