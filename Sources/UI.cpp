@@ -12,6 +12,6 @@ UI::UI() {
 }
 void UI::acceptedMode() {
     myFirstWindow->hide();
-    mySecondWindow=new GameWindow(700,500);
+    mySecondWindow=new GameWindow(600,400);
 
 }

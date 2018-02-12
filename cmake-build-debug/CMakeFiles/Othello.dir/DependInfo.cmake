@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/sam/Desktop/Sharare/Othello/Othello/MatrixElement.cpp" "/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/Othello.dir/MatrixElement.cpp.o"
   "/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/Othello_automoc.cpp" "/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/Othello.dir/Othello_automoc.cpp.o"
   "/home/sam/Desktop/Sharare/Othello/Othello/Sources/GameWindow.cpp" "/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o"
   "/home/sam/Desktop/Sharare/Othello/Othello/Sources/SetWindow.cpp" "/home/sam/Desktop/Sharare/Othello/Othello/cmake-build-debug/CMakeFiles/Othello.dir/Sources/SetWindow.cpp.o"

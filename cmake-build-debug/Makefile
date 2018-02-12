@@ -136,6 +136,33 @@ Othello_automoc/fast:
 	$(MAKE) -f CMakeFiles/Othello_automoc.dir/build.make CMakeFiles/Othello_automoc.dir/build
 .PHONY : Othello_automoc/fast
 
+MatrixElement.o: MatrixElement.cpp.o
+
+.PHONY : MatrixElement.o
+
+# target to build an object file
+MatrixElement.cpp.o:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/MatrixElement.cpp.o
+.PHONY : MatrixElement.cpp.o
+
+MatrixElement.i: MatrixElement.cpp.i
+
+.PHONY : MatrixElement.i
+
+# target to preprocess a source file
+MatrixElement.cpp.i:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/MatrixElement.cpp.i
+.PHONY : MatrixElement.cpp.i
+
+MatrixElement.s: MatrixElement.cpp.s
+
+.PHONY : MatrixElement.s
+
+# target to generate assembly for a file
+MatrixElement.cpp.s:
+	$(MAKE) -f CMakeFiles/Othello.dir/build.make CMakeFiles/Othello.dir/MatrixElement.cpp.s
+.PHONY : MatrixElement.cpp.s
+
 Othello_automoc.o: Othello_automoc.cpp.o
 
 .PHONY : Othello_automoc.o
@@ -281,6 +308,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... Othello"
 	@echo "... Othello_automoc"
+	@echo "... MatrixElement.o"
+	@echo "... MatrixElement.i"
+	@echo "... MatrixElement.s"
 	@echo "... Othello_automoc.o"
 	@echo "... Othello_automoc.i"
 	@echo "... Othello_automoc.s"

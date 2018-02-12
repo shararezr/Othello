@@ -131,6 +131,12 @@
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Headers/UI.h">
 			<Option target="Othello"/>
 		</Unit>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/MatrixElement.cpp">
+			<Option target="Othello"/>
+		</Unit>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/MatrixElement.h">
+			<Option target="Othello"/>
+		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/Sources/GameWindow.cpp">
 			<Option target="Othello"/>
 		</Unit>
@@ -144,6 +150,9 @@
 			<Option target="Othello"/>
 		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/main.cpp">
+			<Option target="Othello"/>
+		</Unit>
+		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/white.png">
 			<Option target="Othello"/>
 		</Unit>
 		<Unit filename="/home/sam/Desktop/Sharare/Othello/Othello/CMakeLists.txt">

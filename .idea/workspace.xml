@@ -13,17 +13,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b7cd645-fbda-4d33-9453-5678f1a355a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Headers/GameWindow.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sources/GameWindow.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MatrixElement.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MatrixElement.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/Othello_automoc.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/Sources/UI.cpp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/main.cpp.o" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Othello" afterPath="$PROJECT_DIR$/cmake-build-debug/Othello" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Headers/SetWindow.h" afterPath="$PROJECT_DIR$/Headers/SetWindow.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Headers/UI.h" afterPath="$PROJECT_DIR$/Headers/UI.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Headers/GameWindow.h" afterPath="$PROJECT_DIR$/Headers/GameWindow.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/GameWindow.cpp" afterPath="$PROJECT_DIR$/Sources/GameWindow.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sources/UI.cpp" afterPath="$PROJECT_DIR$/Sources/UI.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/DependInfo.cmake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/build.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/depend.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/link.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello.dir/progress.make" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello_automoc.dir/AutogenInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Othello_automoc.dir/AutogenInfo.cmake" />
@@ -46,8 +54,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="64">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,24 +73,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/UI.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding>
-                <element signature="e#37#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GameWindow.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sources/GameWindow.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="203">
+              <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+              <folding>
+                <element signature="e#37#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +88,8 @@
       <file leaf-file-name="GameWindow.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Headers/GameWindow.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="70">
+              <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding>
                 <element signature="e#97#125#0" expanded="true" />
               </folding>
@@ -99,35 +97,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UI.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/UI.h">
+      <file leaf-file-name="MatrixElement.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatrixElement.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="438">
+              <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
               <folding>
-                <element signature="e#81#105#0" expanded="true" />
+                <element signature="e#37#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetWindow.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/SetWindow.cpp">
+      <file leaf-file-name="MatrixElement.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MatrixElement.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SetWindow.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Headers/SetWindow.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="208">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding>
-                <element signature="e#94#112#0" expanded="true" />
+                <element signature="e#103#137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,19 +123,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>timer</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Sources/SetWindow.cpp" />
-        <option value="$PROJECT_DIR$/Sources/UI.cpp" />
         <option value="$PROJECT_DIR$/Headers/SetWindow.h" />
         <option value="$PROJECT_DIR$/Headers/UI.h" />
+        <option value="$PROJECT_DIR$/Sources/UI.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Headers/GameWindow.h" />
+        <option value="$PROJECT_DIR$/MatrixElement.cpp" />
+        <option value="$PROJECT_DIR$/MatrixElement.h" />
         <option value="$PROJECT_DIR$/Sources/GameWindow.cpp" />
       </list>
     </option>
@@ -455,15 +450,15 @@
       <option name="presentableId" value="Default" />
       <updated>1518300561817</updated>
       <workItem from="1518300565317" duration="7643000" />
-      <workItem from="1518357813150" duration="3010000" />
+      <workItem from="1518357813150" duration="22526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10653000" />
+    <option name="totallyTimeSpent" value="30169000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="742" extended-state="7" />
+    <frame x="0" y="-1" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25378788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -494,7 +489,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Sources/GameWindow.cpp</url>
+          <line>145</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -521,7 +525,7 @@
         <state relative-caret-position="240">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#37#67#0" expanded="true" />
+            <element signature="e#37#67#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,7 +534,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#37#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,7 +565,7 @@
         <state relative-caret-position="224">
           <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="e#94#112#0" expanded="true" />
+            <element signature="e#94#112#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -572,10 +578,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/SetWindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#94#112#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Othello_automoc.dir/moc_MatrixElement_DLKP6KEUYQIF3D.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/UI.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#37#67#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Headers/UI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#81#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/SetWindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixElement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#103#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="64">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -590,48 +657,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/UI.cpp">
+    <entry file="file://$PROJECT_DIR$/MatrixElement.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="438">
+          <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
           <folding>
-            <element signature="e#37#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/SetWindow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#94#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/SetWindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Headers/UI.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#81#105#0" expanded="true" />
+            <element signature="e#37#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Headers/GameWindow.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="70">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="e#97#125#0" expanded="true" />
           </folding>
@@ -640,9 +679,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/GameWindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="203">
+          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+          <folding>
+            <element signature="e#37#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -13,12 +13,33 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 #include <QtWidgets/QApplication>
+#include <QGraphicsItem>
+#include <MatrixElement.h>
+
+const int WHITE=1;
+const int BLACK=-1;
+
 
 class GameWindow : public QWidget{
 Q_OBJECT
 public:
     GameWindow(int,int);
-    QLabel *scoreHuman,*scoreCPU;
+
+public slots:
+    void setClick(int,int);
+private:
+    QLabel *scoreHuman,*scoreCPU,*scoreTurn;
+    int gameState[10][10],playerTurn;
+    MatrixElement *allItems[10][10];
+    void initConfig();
+    QTimer *timer;
+    QGraphicsView *showView;
+    QGraphicsScene *board;
+    QImage *blackImage,*whiteImage;
+    QLabel *scoreIcon;
+    void refreshBoard();
+    bool canISet(int,int,int,int);
+    //void doTheTurn();
 };
 
 
