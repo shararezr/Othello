@@ -19,17 +19,18 @@
 const int WHITE=1;
 const int BLACK=-1;
 
-
+class MatrixElement;
 class GameWindow : public QWidget{
 Q_OBJECT
 public:
     GameWindow(int,int);
-
+    int wE,bE,gameState[10][10],playerTurn;
+signals:
+    void GameIsOver();
 public slots:
-    void setClick(int,int);
+    void setClick(int,int,int[10][10],bool);
 private:
     QLabel *scoreHuman,*scoreCPU,*scoreTurn;
-    int gameState[10][10],playerTurn;
     MatrixElement *allItems[10][10];
     void initConfig();
     QTimer *timer;
@@ -39,7 +40,10 @@ private:
     QLabel *scoreIcon;
     void refreshBoard();
     bool canISet(int,int,int,int);
-    //void doTheTurn();
+    void changeElements(int,int,int,int,int[10][10],bool);
+    void availableMoves();
+    bool changedLastTime;
+    QPair<int,int> aiNextMove();
 };
 
 

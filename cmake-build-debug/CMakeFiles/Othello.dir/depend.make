@@ -725,9 +725,11 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: ../Headers/GameWindow.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: ../MatrixElement.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: ../Sources/GameWindow.cpp
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/QDebug
+CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/QFileInfo
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/QString
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/QTime
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/QTimer
+CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/QUrl
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qalgorithms.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qarraydata.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qatomic.h
@@ -752,6 +754,7 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qeventloop.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qfile.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qfiledevice.h
+CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qfileinfo.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qflags.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtCore/qglobal.h
@@ -844,11 +847,13 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGraphicsView
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGridLayout
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QLabel
+CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QMessageBox
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QWidget
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qabstractscrollarea.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qapplication.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qboxlayout.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdesktopwidget.h
+CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdialog.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qframe.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsitem.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsscene.h
@@ -857,6 +862,7 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlabel.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayout.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayoutitem.h
+CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qmessagebox.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qscrollarea.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qsizepolicy.h
 CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qtwidgets-config.h
@@ -1219,6 +1225,7 @@ CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidge
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGridLayout
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGroupBox
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QLabel
+CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QMessageBox
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QPushButton
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QRadioButton
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QWidget
@@ -1227,6 +1234,7 @@ CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidge
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qapplication.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qboxlayout.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdesktopwidget.h
+CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdialog.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qframe.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsitem.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsscene.h
@@ -1236,6 +1244,7 @@ CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidge
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlabel.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayout.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayoutitem.h
+CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qmessagebox.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qpushbutton.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qradiobutton.h
 CMakeFiles/Othello.dir/Sources/UI.cpp.o: /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qscrollarea.h

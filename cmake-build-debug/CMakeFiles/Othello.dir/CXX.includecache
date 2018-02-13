@@ -59,6 +59,8 @@ QtWidgets/QGraphicsItem
 -
 QtGui/QMouseEvent
 -
+Headers/GameWindow.h
+-
 
 /home/sam/Desktop/Sharare/Othello/Othello/Headers/GameWindow.h
 QtWidgets/QWidget
@@ -125,6 +127,8 @@ QtWidgets/QGraphicsItem
 -
 QtGui/QMouseEvent
 -
+Headers/GameWindow.h
+-
 
 /home/sam/Desktop/Sharare/Othello/Othello/Sources/GameWindow.cpp
 QtCore/QTime
@@ -139,6 +143,14 @@ QString
 -
 QDebug
 -
+QtWidgets/QMessageBox
+-
+QtCore/QFileInfo
+-
+QUrl
+-
+QDebug
+-
 
 /home/sam/Desktop/Sharare/Othello/Othello/Sources/SetWindow.cpp
 Headers/SetWindow.h
@@ -148,6 +160,8 @@ Headers/SetWindow.h
 Headers/SetWindow.h
 -
 Headers/GameWindow.h
+-
+QtWidgets/QMessageBox
 -
 Headers/UI.h
 /home/sam/Desktop/Sharare/Othello/Othello/Sources/Headers/UI.h
@@ -208,6 +222,10 @@ qdebug.h
 qcoreevent.h
 /home/sam/Qt/5.8/gcc_64/include/QtCore/qcoreevent.h
 
+/home/sam/Qt/5.8/gcc_64/include/QtCore/QFileInfo
+qfileinfo.h
+/home/sam/Qt/5.8/gcc_64/include/QtCore/qfileinfo.h
+
 /home/sam/Qt/5.8/gcc_64/include/QtCore/QList
 qlist.h
 /home/sam/Qt/5.8/gcc_64/include/QtCore/qlist.h
@@ -263,6 +281,10 @@ qdatetime.h
 /home/sam/Qt/5.8/gcc_64/include/QtCore/QTimer
 qtimer.h
 /home/sam/Qt/5.8/gcc_64/include/QtCore/qtimer.h
+
+/home/sam/Qt/5.8/gcc_64/include/QtCore/QUrl
+qurl.h
+/home/sam/Qt/5.8/gcc_64/include/QtCore/qurl.h
 
 /home/sam/Qt/5.8/gcc_64/include/QtCore/QVariant
 qvariant.h
@@ -3503,6 +3525,10 @@ qlabel.h
 /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QLayout
 qlayout.h
 /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayout.h
+
+/home/sam/Qt/5.8/gcc_64/include/QtWidgets/QMessageBox
+qmessagebox.h
+/home/sam/Qt/5.8/gcc_64/include/QtWidgets/qmessagebox.h
 
 /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QPushButton
 qpushbutton.h

@@ -8,9 +8,10 @@
 #include <Headers/GameWindow.h>
 #include <QtWidgets/QWidget>
 
-MatrixElement::MatrixElement() {
+MatrixElement::MatrixElement(GameWindow *p) {
     isUsable=0;
     elementMode=0;
+    myParrent=p;
 }
 
 QRectF MatrixElement::boundingRect() const
@@ -59,4 +60,5 @@ void MatrixElement::mousePressEvent(QGraphicsSceneMouseEvent *theEvent) {
     //qDebug()<<"clicked:"<<theEvent->pos()<<isUsable;
     //qDebug()<<this;
     emit clickedOn(xPos,yPos);
+    myParrent->setClick(xPos,yPos,myParrent->gameState,0);
 }

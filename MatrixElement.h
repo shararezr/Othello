@@ -8,11 +8,12 @@
 
 #include <QtWidgets/QGraphicsItem>
 #include <QtGui/QMouseEvent>
-
+#include <Headers/GameWindow.h>
+class GameWindow;
 class MatrixElement: public QObject,public QGraphicsItem {
 Q_OBJECT
 public:
-    MatrixElement();
+    MatrixElement(GameWindow *);
     bool isUsable;
     int elementMode,xPos,yPos;
     QRectF boundingRect() const override;
@@ -24,6 +25,9 @@ protected:
     void advance(int step) override;
     void mouseMoveEvent(QMouseEvent *);
     void mousePressEvent(QGraphicsSceneMouseEvent *);
+
+private:
+    GameWindow *myParrent;
 };
 
 

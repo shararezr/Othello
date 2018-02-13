@@ -18,7 +18,7 @@ public:
 
 public slots:
     void acceptedMode();
-
+    void newGame();
 private:
     SetWindow *myFirstWindow;
     GameWindow *mySecondWindow;

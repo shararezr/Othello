@@ -726,9 +726,11 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o
  ..//MatrixElement.h
  /home/sam/Desktop/Sharare/Othello/Othello/Sources/GameWindow.cpp
  /home/sam/Qt/5.8/gcc_64/include/QtCore/QDebug
+ /home/sam/Qt/5.8/gcc_64/include/QtCore/QFileInfo
  /home/sam/Qt/5.8/gcc_64/include/QtCore/QString
  /home/sam/Qt/5.8/gcc_64/include/QtCore/QTime
  /home/sam/Qt/5.8/gcc_64/include/QtCore/QTimer
+ /home/sam/Qt/5.8/gcc_64/include/QtCore/QUrl
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qalgorithms.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qarraydata.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qatomic.h
@@ -753,6 +755,7 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qeventloop.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qfile.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qfiledevice.h
+ /home/sam/Qt/5.8/gcc_64/include/QtCore/qfileinfo.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qflags.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qgenericatomic.h
  /home/sam/Qt/5.8/gcc_64/include/QtCore/qglobal.h
@@ -845,11 +848,13 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGraphicsView
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGridLayout
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QLabel
+ /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QMessageBox
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QWidget
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qabstractscrollarea.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qapplication.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qboxlayout.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdialog.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qframe.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsitem.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsscene.h
@@ -858,6 +863,7 @@ CMakeFiles/Othello.dir/Sources/GameWindow.cpp.o
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlabel.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayout.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qmessagebox.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qscrollarea.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qtwidgets-config.h
@@ -1220,6 +1226,7 @@ CMakeFiles/Othello.dir/Sources/UI.cpp.o
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGridLayout
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QGroupBox
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QLabel
+ /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QMessageBox
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QPushButton
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QRadioButton
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/QWidget
@@ -1228,6 +1235,7 @@ CMakeFiles/Othello.dir/Sources/UI.cpp.o
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qapplication.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qboxlayout.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qdialog.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qframe.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsitem.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qgraphicsscene.h
@@ -1237,6 +1245,7 @@ CMakeFiles/Othello.dir/Sources/UI.cpp.o
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlabel.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayout.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qmessagebox.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qpushbutton.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qradiobutton.h
  /home/sam/Qt/5.8/gcc_64/include/QtWidgets/qscrollarea.h
